@@ -35,7 +35,7 @@ public class GitDemo {
             num /= 10;
         }
         reverseNum = newNumber;
-        return reverseNumber;
+        return reverseNum;
     }
 
     /*****
