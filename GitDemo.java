@@ -10,9 +10,11 @@ public class GitDemo {
         previousNumber = 1;
         reverseNum = 1;
     }
-
-    /*****
-     * This function should add 'num' to 'previousNumber' and return the sum.
+    
+     /*****
+     * This function should calculate the factorial of 'num' and return the
+     * resulting value. i.e. if num = 4, the function will return the value of (1 *
+     * 2 * 3 * 4)
      *****/
     public double addNumber(double num) {
         int sum = 0;
@@ -22,10 +24,8 @@ public class GitDemo {
     }
 
     /*****
-     * This function should calculate the factorial of 'num' and return the
-     * resulting value. i.e. if num = 4, the function will return the value of (1 *
-     * 2 * 3 * 4)
-     *****/
+     * This function should add 'num' to 'previousNumber' and return the sum.
+     *****/ 
     public double reverseNumber(int num) {  //reverseNumber
         double newNumber = 1;
 
